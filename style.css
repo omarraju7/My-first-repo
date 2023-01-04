@@ -1,5 +1,6 @@
 .heading{
-    color:black;
+    color:rgb(206, 39, 39);
     background-color: aquamarine;
-    border: 10px solid rgb(243, 243, 3);
+    border: 1px solid rgb(243, 243, 3);
+    text-align: center;
 }
