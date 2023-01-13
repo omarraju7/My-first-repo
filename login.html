@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/f032a371eb.js" crossorigin="anonymous"></script>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+            width:50%;
+        }
+        nav a{
+            text-decoration: none;
+            color: crimson;
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 10px;
+            
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .icon a{
+            margin-left: 10px;
+        }
+
+        .login-container{
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        
+       
+
+
+    </style>
+</head>
+<body>
+
+<nav class="container">
+    <div  class="anchor">
+        
+    <a href="">Home</a>
+    <a href="">Love</a>
+    <a href="">Crying</a>
+    <a href="">SoFar</a>
+    </div>
+    <div class="icon">
+        <a href=""><i class="fa-solid fa-user"></i></a>
+        <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+    </div>
+    
+</nav>
+<section class="login-container">
+    <form>
+        <h3>Please enter your email and password to log in</h3>
+        
+       <input type="email" name="email" placeholder="Enter your email">
+       <input type="password" placeholder="Password">
+       <input type="submit" value="Submit">
+    </form>
+</section>
+   
+    
+</body>
+</html>
